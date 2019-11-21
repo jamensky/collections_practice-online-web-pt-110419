@@ -32,7 +32,15 @@ def find_a(array)
   array.each do |name|
     if name.start_with?("a")
       a_names << name
-      return a_names
     end
   end
+  return a_names
 end
+
+
+
+
+
+
+
+
