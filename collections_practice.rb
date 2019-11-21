@@ -48,5 +48,6 @@ end
 def add_s(array)
   word_s = []
   array.each_with_index.collect{|word, index| word_s << "#{word}s"}
-  return word_s.delete_at(1)
+  word_s.delete_at(1)
+  return word_s
 end
