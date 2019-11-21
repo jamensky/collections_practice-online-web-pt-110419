@@ -49,11 +49,3 @@ def add_s(array)
   word_s = []
   array.each_with_index.collect{|word, index| word_s << "#{word}"s" }
 end
-
-
-
-
-
-
-
-
