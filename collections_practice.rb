@@ -44,3 +44,14 @@ def sum_array(array)
   end
   return tot
 end
+
+def add_s(array)
+  appendss = ""
+  array.each do |word|
+    appendss << word + "s"
+end 
+
+
+
+
+
