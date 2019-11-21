@@ -26,3 +26,16 @@ def kesha_maker(array)
 end
 return array
 end
+
+def find_a(array)
+  a_names = []
+  array.each do |name|
+    if name.start_with?("a")
+      a_names << name 
+      return a_names
+end 
+
+
+
+
+
