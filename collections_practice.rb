@@ -36,3 +36,14 @@ def find_a(array)
   end
   return a_names
 end
+
+def sum_array(array)
+  tot = 0
+  array.each do |num|
+    tot += num  
+  end 
+  return tot
+end 
+
+
+
