@@ -19,5 +19,3 @@ def reverse_array(array)
   array.reverse
   return array
 end
-
-
