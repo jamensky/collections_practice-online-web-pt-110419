@@ -36,11 +36,3 @@ def find_a(array)
   end
   return a_names
 end
-
-
-
-
-
-
-
-
