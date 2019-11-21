@@ -47,10 +47,10 @@ end
 
 def add_s(array)
   appendss = []
-  if appendss != appends[2]
+  if appendss != appendss[2]
   array.each do |word|
     appendss << word + "s"
   end
-end
+end 
 return appendss
 end
