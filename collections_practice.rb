@@ -46,11 +46,14 @@ def sum_array(array)
 end
 
 def add_s(array)
-  appendss = []
-  if appendss != appendss[2]
-  array.each do |word|
-    appendss << word + "s"
-  end
+  word_s = []
+  array.each_with_index.collect{|word, index| word_s << "#{word}"s" }
 end
-return appendss
-end
+
+
+
+
+
+
+
+
