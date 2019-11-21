@@ -53,6 +53,3 @@ def add_s(array)
   end
   return appendss
 end
-
-
-
