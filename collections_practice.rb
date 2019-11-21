@@ -33,4 +33,6 @@ def find_a(array)
     if name.start_with?("a")
       a_names << name
       return a_names
+    end
+  end
 end
