@@ -50,13 +50,3 @@ def add_s(array)
   array.each_with_index.collect{|word, index| word_s << "#{word}"s"}"
   return word_s.delete_at(1)
 end
-
-
-
-
-
-
-
-
-
-
