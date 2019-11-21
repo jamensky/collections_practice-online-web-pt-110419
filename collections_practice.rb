@@ -49,4 +49,6 @@ def add_s(array)
   appendss = ""
   array.each do |word|
     appendss << word + "s"
+  end 
+  return appendss
 end
